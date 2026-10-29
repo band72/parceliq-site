@@ -1,0 +1,39 @@
+import{pgPool as o}from"./postgresClient-qrVbNTKc.js";import"./__vite-browser-external-DrV_kz0N.js";import"./react-vendor-CB5wtuEC.js";import"./index-CbiCS8Q5.js";import"./turf-vendor-CwrBJ54B.js";import"./icons-vendor-BEIlHLFQ.js";import"./maplibre-vendor-CLmOyQOb.js";import"./gis-vendor-Co8Zq2Um.js";import"./misc-data-D0yF5yJs.js";import"./duval-archibald-data-BYKUu7Lk.js";import"./duval-unrecorded-subs-data-Boarqhev.js";import"./duval-real-parcels-data-DdEJxntc.js";import"./florida-670-matrix-data-DYrACb7R.js";import"./supabase-vendor-CI_V8wt2.js";const n=new Map([["LIC-STARTER-2026-FL",{id:"lic-001",licenseKey:"LIC-STARTER-2026-FL",planId:"starter",planName:"Starter Cadastre ($49/mo)",userEmail:"user@parceliq.com",purchasedCounties:["Duval"],maxSeats:1,seatsUsed:0,status:"Active",createdAt:"2026-01-01T00:00:00Z",expiresAt:"2027-12-31T23:59:59Z"}],["LIC-PRO-2026-ENG",{id:"lic-002",licenseKey:"LIC-PRO-2026-ENG",planId:"professional",planName:"Professional Engineer ($149/mo)",userEmail:"engineer@atlantic-survey.com",purchasedCounties:["Duval","Nassau","Clay"],maxSeats:5,seatsUsed:0,status:"Active",createdAt:"2026-01-01T00:00:00Z",expiresAt:"2027-12-31T23:59:59Z"}],["LIC-ENTERPRISE-2026-MAX",{id:"lic-003",licenseKey:"LIC-ENTERPRISE-2026-MAX",planId:"enterprise",planName:"Enterprise Spatial Unlimited ($499/mo)",userEmail:"dsb6063@gmail.com",purchasedCounties:["Duval","Nassau","Clay","St Johns","Baker","Flagler","Putnam","Volusia"],maxSeats:50,seatsUsed:0,status:"Active",createdAt:"2026-01-01T00:00:00Z",expiresAt:"2028-12-31T23:59:59Z"}],["LIC-BASIC-2026-PACK15",{id:"lic-004",licenseKey:"LIC-BASIC-2026-PACK15",planId:"basic",planName:"Basic Seat Pack (15 seats)",userEmail:"dsb6063@gmail.com",purchasedCounties:["Duval","Nassau","Clay","St Johns","Baker","Flagler","Putnam","Volusia"],maxSeats:15,seatsUsed:0,status:"Active",createdAt:"2026-01-01T00:00:00Z",expiresAt:"2028-12-31T23:59:59Z"}]]);async function w(){try{const t=await o.connect();try{await t.query(`
+        CREATE TABLE IF NOT EXISTS commercial_licenses (
+          id VARCHAR(64) PRIMARY KEY,
+          license_key VARCHAR(128) UNIQUE NOT NULL,
+          plan_id VARCHAR(64) NOT NULL DEFAULT 'professional',
+          plan_name VARCHAR(128) NOT NULL,
+          user_email VARCHAR(256) NOT NULL,
+          purchased_counties TEXT[] DEFAULT '{Duval, Nassau, Clay}',
+          max_seats INTEGER DEFAULT 1,
+          seats_used INTEGER DEFAULT 0,
+          status VARCHAR(32) DEFAULT 'Active',
+          activated_at TIMESTAMP WITH TIME ZONE,
+          activated_by_email VARCHAR(256),
+          created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+          expires_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP + INTERVAL '1 year'
+        );
+        CREATE INDEX IF NOT EXISTS idx_commercial_licenses_key ON commercial_licenses(license_key);
+        CREATE INDEX IF NOT EXISTS idx_commercial_licenses_status ON commercial_licenses(status);
+      `);const i=await t.query("SELECT COUNT(*) FROM commercial_licenses;"),e=parseInt(i.rows[0].count,10);if(e===0){for(const s of n.values())await t.query(`
+            INSERT INTO commercial_licenses (
+              id, license_key, plan_id, plan_name, user_email,
+              purchased_counties, max_seats, seats_used, status, created_at, expires_at
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+            ON CONFLICT (license_key) DO NOTHING;
+          `,[s.id,s.licenseKey,s.planId,s.planName,s.userEmail,s.purchasedCounties,s.maxSeats,s.seatsUsed,s.status,s.createdAt,s.expiresAt]);return n.size}return e}finally{t.release()}}catch(t){return console.warn("[LicenseDB] PostgreSQL initialization note, using memory store:",(t==null?void 0:t.message)||t),n.size}}async function O(t,i="user@parceliq.example"){const e=t.trim().toUpperCase();if(!e)return{success:!1,message:"Please enter a valid commercial license key."};try{const r=await o.connect();try{await r.query("BEGIN");const a=await r.query("SELECT * FROM commercial_licenses WHERE UPPER(license_key) = $1 FOR UPDATE;",[e]);if(a.rows.length>0){const l=a.rows[0];if(l.status==="Redeemed")return await r.query("ROLLBACK"),{success:!1,alreadyRedeemed:!0,message:`License key "${e}" has already been redeemed on ${new Date(l.activated_at).toLocaleDateString()} by ${l.activated_by_email||l.user_email}. License keys may only be activated once.`};if(l.status==="Expired"||new Date(l.expires_at).getTime()<Date.now())return await r.query("ROLLBACK"),{success:!1,message:`License key "${e}" has expired.`};const m=new Date().toISOString(),d=await r.query(`
+          UPDATE commercial_licenses SET
+            status = 'Redeemed',
+            seats_used = seats_used + 1,
+            activated_at = $1,
+            activated_by_email = $2
+          WHERE UPPER(license_key) = $3
+          RETURNING *;
+        `,[m,i,e]);await r.query("COMMIT");const c=d.rows[0],u={id:c.id,licenseKey:c.license_key,planId:c.plan_id,planName:c.plan_name,userEmail:c.user_email,purchasedCounties:c.purchased_counties||["Duval"],maxSeats:c.max_seats,seatsUsed:c.seats_used,status:c.status,activatedAt:c.activated_at,activatedByEmail:c.activated_by_email,createdAt:c.created_at,expiresAt:c.expires_at};return n.set(e,u),{success:!0,message:`Commercial license "${e}" activated successfully for ${i}!`,license:u}}else await r.query("ROLLBACK")}catch(a){await r.query("ROLLBACK"),console.warn("[LicenseDB] DB transactional redemption note, falling back to memory store:",(a==null?void 0:a.message)||a)}finally{r.release()}}catch{}const s=n.get(e);return s?s.status==="Redeemed"?{success:!1,alreadyRedeemed:!0,message:`License key "${e}" has already been redeemed on ${s.activatedAt?new Date(s.activatedAt).toLocaleDateString():"earlier date"} by ${s.activatedByEmail||s.userEmail}. License keys are strictly single-use.`}:(s.status="Redeemed",s.seatsUsed=(s.seatsUsed||0)+1,s.activatedAt=new Date().toISOString(),s.activatedByEmail=i,n.set(e,s),{success:!0,message:`Commercial license "${e}" activated successfully for ${i}!`,license:s}):{success:!1,message:`Unrecognized license key (${e}). Please check your order confirmation email.`}}async function v(t,i,e,s=["Duval"]){const r={basic:"Basic Seat Pack",starter:"Starter Cadastre ($49/mo)",professional:"Professional Engineer ($149/mo)",enterprise:"Enterprise Spatial Unlimited ($499/mo)"},a={id:`lic-${Date.now()}`,licenseKey:t.trim().toUpperCase(),planId:e,planName:r[e]||r.professional,userEmail:i,purchasedCounties:s,maxSeats:e==="enterprise"?50:e==="basic"?5:e==="starter"?1:5,seatsUsed:0,status:"Active",createdAt:new Date().toISOString(),expiresAt:new Date(Date.now()+365*24*3600*1e3).toISOString()};n.set(a.licenseKey,a);try{await o.query(`
+      INSERT INTO commercial_licenses (
+        id, license_key, plan_id, plan_name, user_email,
+        purchased_counties, max_seats, seats_used, status, created_at, expires_at
+      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+      ON CONFLICT (license_key) DO NOTHING;
+    `,[a.id,a.licenseKey,a.planId,a.planName,a.userEmail,a.purchasedCounties,a.maxSeats,a.seatsUsed,a.status,a.createdAt,a.expiresAt])}catch{}return a}function D(t){const i=(t||"").trim().toLowerCase();return i?Array.from(n.values()).filter(e=>e.userEmail.trim().toLowerCase()===i):[]}function p(t){if(!t)return;const i=t.trim(),e=i.toUpperCase(),s=n.get(e);if(s)return s;for(const r of n.values())if(r.id.toLowerCase()===i.toLowerCase()||r.licenseKey.toUpperCase()===e)return r}async function x(t,i){const e=p(t);if(e){e.maxSeats=i,n.set(e.licenseKey.toUpperCase(),e);try{await o.query("UPDATE commercial_licenses SET max_seats = $1 WHERE UPPER(license_key) = $2;",[i,e.licenseKey.toUpperCase()])}catch{}return e}}export{p as findLicenseRecord,D as findLicensesForOwner,w as initCommercialLicensesTable,x as persistLicenseMaxSeats,O as redeemCommercialLicenseKey,v as registerNewPurchasedLicense};
