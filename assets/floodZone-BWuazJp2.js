@@ -1,0 +1,1 @@
+function r(n){const t=(n||"").trim().toUpperCase();if(!t||t.startsWith("UNVERIFIED"))return null;const e=t.match(/^(?:ZONE\s+)?(A99|AE|AH|AO|AR|A\d{0,2}|VE|V\d{0,2}|X|B|C|D)\b/);return e?e[1]:null}function s(n){const t=r(n);return t!==null&&(t.startsWith("A")||t.startsWith("V"))}export{s as i};

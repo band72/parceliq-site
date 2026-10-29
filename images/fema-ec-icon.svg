@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+  <!-- Wavy Line 1: Primary Flood Elevation Level (BFE / Contour) -->
+  <path d="M2.5 12.5 C 5.5 9.5, 8.5 15.5, 12 12.5 C 15.5 9.5, 18.5 15.5, 21.5 12.5" stroke="#00f0ff" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Wavy Line 2: Secondary Ground / Hydro Contour Line -->
+  <path d="M2.5 17.5 C 5.5 14.5, 8.5 20.5, 12 17.5 C 15.5 14.5, 18.5 20.5, 21.5 17.5" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+
+  <!-- Official Certificate Red Ribbon (Compact Accent: ~26% canvas width, does not dominate) -->
+  <g id="certificate-red-ribbon">
+    <!-- Left Ribbon Tail with V-Notch Cut -->
+    <path d="M10.4 7.2 L8.8 13.5 L10.4 12.3 L11.8 13.5 L11.6 7.2 Z" fill="#dc2626" stroke="#991b1b" stroke-width="0.4" stroke-linejoin="round"/>
+    <!-- Right Ribbon Tail with V-Notch Cut -->
+    <path d="M12.4 7.2 L12.2 13.5 L13.6 12.3 L15.2 13.5 L13.6 7.2 Z" fill="#b91c1c" stroke="#7f1d1d" stroke-width="0.4" stroke-linejoin="round"/>
+    <!-- Red Ribbon Rosette Seal / Medallion -->
+    <circle cx="12" cy="5.5" r="3.2" fill="#ef4444" stroke="#b91c1c" stroke-width="0.75"/>
+    <!-- Embossed Inner Ring / Crisp White-Pink Highlight -->
+    <circle cx="12" cy="5.5" r="1.7" fill="#fee2e2" opacity="0.9" stroke="#dc2626" stroke-width="0.4"/>
+    <circle cx="12" cy="5.5" r="0.75" fill="#b91c1c"/>
+  </g>
+</svg>

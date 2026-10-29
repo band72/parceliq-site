@@ -1,0 +1,672 @@
+[
+  {
+    "county": "Alachua",
+    "fips": "12001",
+    "county_seat": "Gainesville",
+    "clerk_main_website": "https://alachuaclerk.org",
+    "clerk_records_portal": "https://or.alachuaclerk.org/LandmarkWeb",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.acpafl.org",
+    "pa_search_portal": "https://www.acpafl.org/searches.asp"
+  },
+  {
+    "county": "Baker",
+    "fips": "12003",
+    "county_seat": "Macclenny",
+    "clerk_main_website": "https://bakerclerk.com",
+    "clerk_records_portal": "https://recording.bakerclerk.com/DuProcessWebInquiry/index.html",
+    "clerk_portal_engine": "DuProcess",
+    "pa_main_website": "https://www.bakerpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=664&LayerID=11145&PageTypeID=2&PageID=4654"
+  },
+  {
+    "county": "Bay",
+    "fips": "12005",
+    "county_seat": "Panama City",
+    "clerk_main_website": "https://baycoclerk.com",
+    "clerk_records_portal": "https://or.baycoclerk.com/LandmarkWeb",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.baypa.net",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=1010&LayerID=20974&PageTypeID=2&PageID=8991"
+  },
+  {
+    "county": "Bradford",
+    "fips": "12007",
+    "county_seat": "Starke",
+    "clerk_main_website": "https://bradfordclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/04",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://www.bradfordpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=660&LayerID=11105&PageTypeID=2&PageID=4634"
+  },
+  {
+    "county": "Brevard",
+    "fips": "12009",
+    "county_seat": "Titusville",
+    "clerk_main_website": "https://brevardclerk.us",
+    "clerk_records_portal": "https://vaclmweb1.brevardclerk.us/AcclaimWeb/",
+    "clerk_portal_engine": "AcclaimWeb",
+    "pa_main_website": "https://www.bcpao.us",
+    "pa_search_portal": "https://www.bcpao.us/PropertySearch/#/nav/Search"
+  },
+  {
+    "county": "Broward",
+    "fips": "12011",
+    "county_seat": "Fort Lauderdale",
+    "clerk_main_website": "https://www.browardclerk.org",
+    "clerk_records_portal": "https://officialrecords.broward.org/AcclaimWeb",
+    "clerk_portal_engine": "AcclaimWeb",
+    "pa_main_website": "https://web.bcpa.net",
+    "pa_search_portal": "https://web.bcpa.net/BcpaClient/#/Record-Search"
+  },
+  {
+    "county": "Calhoun",
+    "fips": "12013",
+    "county_seat": "Blountstown",
+    "clerk_main_website": "https://calhounclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/07",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://calhounpa.net",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=825&LayerID=14777&PageTypeID=2&PageID=6683"
+  },
+  {
+    "county": "Charlotte",
+    "fips": "12015",
+    "county_seat": "Punta Gorda",
+    "clerk_main_website": "https://charlotteclerk.com",
+    "clerk_records_portal": "https://recording.charlotteclerk.com/",
+    "clerk_portal_engine": "Custom Clerk Portal",
+    "pa_main_website": "https://www.charlottepa.com",
+    "pa_search_portal": "https://www.charlottepa.com/Property/PropertySearch"
+  },
+  {
+    "county": "Citrus",
+    "fips": "12017",
+    "county_seat": "Inverness",
+    "clerk_main_website": "https://citrusclerk.org",
+    "clerk_records_portal": "https://search.citrusclerk.org/LandmarkWeb",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.citruspa.com",
+    "pa_search_portal": "https://www.citruspa.com/search/"
+  },
+  {
+    "county": "Clay",
+    "fips": "12019",
+    "county_seat": "Green Cove Springs",
+    "clerk_main_website": "https://clayclerk.com",
+    "clerk_records_portal": "https://landmark.clayclerk.com/LandmarkWeb",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.claycopa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=830&LayerID=15008&PageTypeID=2&PageID=6765"
+  },
+  {
+    "county": "Collier",
+    "fips": "12021",
+    "county_seat": "Naples",
+    "clerk_main_website": "https://collierclerk.com",
+    "clerk_records_portal": "https://cor.collierclerk.com/coraccess/search/document",
+    "clerk_portal_engine": "CorAccess Custom",
+    "pa_main_website": "https://www.collierappraiser.com",
+    "pa_search_portal": "https://www.collierappraiser.com/MainSearch.html"
+  },
+  {
+    "county": "Columbia",
+    "fips": "12023",
+    "county_seat": "Lake City",
+    "clerk_main_website": "https://columbiaclerk.com",
+    "clerk_records_portal": "https://columbiaclerk.com/official-record-search/",
+    "clerk_portal_engine": "Cott Systems",
+    "pa_main_website": "https://columbiapropertyappraiser.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=1075&LayerID=25679&PageTypeID=2&PageID=10492"
+  },
+  {
+    "county": "Miami-Dade",
+    "fips": "12086",
+    "county_seat": "Miami",
+    "clerk_main_website": "https://miamidadeclerk.gov",
+    "clerk_records_portal": "https://onlineservices.miamidadeclerk.gov/officialrecords/StandardSearch.aspx",
+    "clerk_portal_engine": "Miami-Dade Custom",
+    "pa_main_website": "https://www.miamidade.gov/pa",
+    "pa_search_portal": "https://www.miamidade.gov/Apps/PA/propertysearch/#/"
+  },
+  {
+    "county": "DeSoto",
+    "fips": "12027",
+    "county_seat": "Arcadia",
+    "clerk_main_website": "https://desotoclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/14",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://desotopa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=875&LayerID=16551&PageTypeID=2&PageID=7410"
+  },
+  {
+    "county": "Dixie",
+    "fips": "12029",
+    "county_seat": "Cross City",
+    "clerk_main_website": "https://dixieclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/15",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://dixiepa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=876&LayerID=16576&PageTypeID=2&PageID=7415"
+  },
+  {
+    "county": "Duval",
+    "fips": "12031",
+    "county_seat": "Jacksonville",
+    "clerk_main_website": "https://duvalclerk.com",
+    "clerk_records_portal": "https://or.duvalclerk.com/",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.coj.net/departments/property-appraiser",
+    "pa_search_portal": "https://paopropertysearch.coj.net/Basic/Search.aspx"
+  },
+  {
+    "county": "Escambia",
+    "fips": "12033",
+    "county_seat": "Pensacola",
+    "clerk_main_website": "https://escambiaclerk.com",
+    "clerk_records_portal": "https://dory.escambiaclerk.com/LandmarkWeb1.4.6.134",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.escambiapropertyappraiser.com",
+    "pa_search_portal": "https://www.escambiapropertyappraiser.com/property-search/"
+  },
+  {
+    "county": "Flagler",
+    "fips": "12035",
+    "county_seat": "Bunnell",
+    "clerk_main_website": "https://flaglerclerk.com",
+    "clerk_records_portal": "https://records.flaglerclerk.com/",
+    "clerk_portal_engine": "Tyler Technologies",
+    "pa_main_website": "https://flaglerpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=860&LayerID=16024&PageTypeID=2&PageID=7180"
+  },
+  {
+    "county": "Franklin",
+    "fips": "12037",
+    "county_seat": "Apalachicola",
+    "clerk_main_website": "https://franklinclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/19",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://franklinpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=816&LayerID=14532&PageTypeID=2&PageID=6568"
+  },
+  {
+    "county": "Gadsden",
+    "fips": "12039",
+    "county_seat": "Quincy",
+    "clerk_main_website": "https://gadsdenclerk.com",
+    "clerk_records_portal": "https://www.gadsdenclerk.com/PublicInquiry/Search.aspx?Type=Name",
+    "clerk_portal_engine": "Custom PublicInquiry",
+    "pa_main_website": "https://gadsdenpa.gov",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=828&LayerID=14945&PageTypeID=2&PageID=6743"
+  },
+  {
+    "county": "Gilchrist",
+    "fips": "12041",
+    "county_seat": "Trenton",
+    "clerk_main_website": "https://gilchristclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/21",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://qpublic.schneidercorp.com/Application.aspx?AppID=863",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=863&LayerID=16127&PageTypeID=2&PageID=7225"
+  },
+  {
+    "county": "Glades",
+    "fips": "12043",
+    "county_seat": "Moore Haven",
+    "clerk_main_website": "https://gladesclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/22",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://gladespa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=854&LayerID=15843&PageTypeID=2&PageID=7105"
+  },
+  {
+    "county": "Gulf",
+    "fips": "12045",
+    "county_seat": "Port St. Joe",
+    "clerk_main_website": "https://gulfclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/23",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://gulfpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=846&LayerID=15570&PageTypeID=2&PageID=6991"
+  },
+  {
+    "county": "Hamilton",
+    "fips": "12047",
+    "county_seat": "Jasper",
+    "clerk_main_website": "https://hamiltonclerk.com",
+    "clerk_records_portal": "https://hamiltonclerk.com/official-record-search/",
+    "clerk_portal_engine": "Cott Systems",
+    "pa_main_website": "https://hamiltonpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=861&LayerID=16053&PageTypeID=2&PageID=7193"
+  },
+  {
+    "county": "Hardee",
+    "fips": "12049",
+    "county_seat": "Wauchula",
+    "clerk_main_website": "https://hardeeclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/25",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://hardeepa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=855&LayerID=15872&PageTypeID=2&PageID=7118"
+  },
+  {
+    "county": "Hendry",
+    "fips": "12051",
+    "county_seat": "LaBelle",
+    "clerk_main_website": "https://hendryclerk.org",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/26",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://hendrypa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=858&LayerID=15967&PageTypeID=2&PageID=7155"
+  },
+  {
+    "county": "Hernando",
+    "fips": "12053",
+    "county_seat": "Brooksville",
+    "clerk_main_website": "https://hernandoclerk.com",
+    "clerk_records_portal": "https://or.hernandoclerk.com/LandmarkWeb",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.hernandopa-fl.us",
+    "pa_search_portal": "https://www.hernandopa-fl.us/paquery/"
+  },
+  {
+    "county": "Highlands",
+    "fips": "12055",
+    "county_seat": "Sebring",
+    "clerk_main_website": "https://highlandsclerkfl.gov",
+    "clerk_records_portal": "https://acclaim.highlandsclerkfl.gov/Acclaimweb",
+    "clerk_portal_engine": "AcclaimWeb",
+    "pa_main_website": "https://www.highlandspa.org",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=659&LayerID=11075&PageTypeID=2&PageID=4619"
+  },
+  {
+    "county": "Hillsborough",
+    "fips": "12057",
+    "county_seat": "Tampa",
+    "clerk_main_website": "https://hillsclerk.com",
+    "clerk_records_portal": "https://publicaccess.hillsclerk.com/oripublicaccess/",
+    "clerk_portal_engine": "Cott Systems",
+    "pa_main_website": "https://www.hcpafl.org",
+    "pa_search_portal": "https://gis.hcpafl.org/propertysearch/#/nav/Basic%20Search"
+  },
+  {
+    "county": "Holmes",
+    "fips": "12059",
+    "county_seat": "Bonifay",
+    "clerk_main_website": "https://holmesclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/30",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://holmespa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=841&LayerID=15392&PageTypeID=2&PageID=6920"
+  },
+  {
+    "county": "Indian River",
+    "fips": "12061",
+    "county_seat": "Vero Beach",
+    "clerk_main_website": "https://clerk.indian-river.org",
+    "clerk_records_portal": "https://ori.indian-river.org/",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.ircpa.org",
+    "pa_search_portal": "https://www.ircpa.org/property-search/"
+  },
+  {
+    "county": "Jackson",
+    "fips": "12063",
+    "county_seat": "Marianna",
+    "clerk_main_website": "https://jacksonclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/32",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://jacksonpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=848&LayerID=15638&PageTypeID=2&PageID=7021"
+  },
+  {
+    "county": "Jefferson",
+    "fips": "12065",
+    "county_seat": "Monticello",
+    "clerk_main_website": "https://jeffersonclerk.com",
+    "clerk_records_portal": "https://www.jeffersonclerk.com/departments/recording-official-records/official-records/",
+    "clerk_portal_engine": "Cott Systems",
+    "pa_main_website": "https://jeffersonpa.net",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=829&LayerID=14976&PageTypeID=2&PageID=6755"
+  },
+  {
+    "county": "Lafayette",
+    "fips": "12067",
+    "county_seat": "Mayo",
+    "clerk_main_website": "https://lafayetteclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/34",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://lafayettepa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=864&LayerID=16155&PageTypeID=2&PageID=7236"
+  },
+  {
+    "county": "Lake",
+    "fips": "12069",
+    "county_seat": "Tavares",
+    "clerk_main_website": "https://lakecountyclerk.org",
+    "clerk_records_portal": "https://officialrecords.lakecountyclerk.org/",
+    "clerk_portal_engine": "Custom Tyler/Cott",
+    "pa_main_website": "https://www.lakecopa.org",
+    "pa_search_portal": "https://www.lakecopa.org/property-search/"
+  },
+  {
+    "county": "Lee",
+    "fips": "12071",
+    "county_seat": "Fort Myers",
+    "clerk_main_website": "https://leeclerk.org",
+    "clerk_records_portal": "https://or.leeclerk.org/LandMarkWeb",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.leepa.org",
+    "pa_search_portal": "https://www.leepa.org/Search/PropertySearch.aspx"
+  },
+  {
+    "county": "Leon",
+    "fips": "12073",
+    "county_seat": "Tallahassee",
+    "clerk_main_website": "https://leonclerk.com",
+    "clerk_records_portal": "https://cvweb.leonclerk.com/public/clerk_services/official_records/index.asp",
+    "clerk_portal_engine": "Custom CvWeb",
+    "pa_main_website": "https://www.leonpa.org",
+    "pa_search_portal": "https://www.leonpa.org/property-search/"
+  },
+  {
+    "county": "Levy",
+    "fips": "12075",
+    "county_seat": "Bronson",
+    "clerk_main_website": "https://levyclerk.com",
+    "clerk_records_portal": "https://levyclerk.com/public-records/",
+    "clerk_portal_engine": "Cott Systems",
+    "pa_main_website": "https://qpublic.schneidercorp.com/Application.aspx?AppID=865",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=865&LayerID=16182&PageTypeID=2&PageID=7246"
+  },
+  {
+    "county": "Liberty",
+    "fips": "12077",
+    "county_seat": "Bristol",
+    "clerk_main_website": "https://libertyclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/39",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://libertypa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=827&LayerID=14917&PageTypeID=2&PageID=6733"
+  },
+  {
+    "county": "Madison",
+    "fips": "12079",
+    "county_seat": "Madison",
+    "clerk_main_website": "https://madisonclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/40",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://madisonpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=862&LayerID=16089&PageTypeID=2&PageID=7208"
+  },
+  {
+    "county": "Manatee",
+    "fips": "12081",
+    "county_seat": "Bradenton",
+    "clerk_main_website": "https://manateeclerk.com",
+    "clerk_records_portal": "https://records.manateeclerk.com/OfficialRecords/Search",
+    "clerk_portal_engine": "Custom OfficialRecords",
+    "pa_main_website": "https://www.manateepao.gov",
+    "pa_search_portal": "https://www.manateepao.gov/property-search/"
+  },
+  {
+    "county": "Marion",
+    "fips": "12083",
+    "county_seat": "Ocala",
+    "clerk_main_website": "https://marioncountyclerk.org",
+    "clerk_records_portal": "https://nvweb.marioncountyclerk.org/searchng_SSL/",
+    "clerk_portal_engine": "Cott SearchNG",
+    "pa_main_website": "https://www.pa.marion.fl.us",
+    "pa_search_portal": "https://www.pa.marion.fl.us/PropertySearch.aspx"
+  },
+  {
+    "county": "Martin",
+    "fips": "12085",
+    "county_seat": "Stuart",
+    "clerk_main_website": "https://martinclerk.com",
+    "clerk_records_portal": "https://or.martinclerk.com/landmarkweb",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.pa.martin.fl.us",
+    "pa_search_portal": "https://www.pa.martin.fl.us/property-search"
+  },
+  {
+    "county": "Monroe",
+    "fips": "12087",
+    "county_seat": "Key West",
+    "clerk_main_website": "https://monroe-clerk.com",
+    "clerk_records_portal": "https://or.monroe-clerk.com/LandmarkWeb/Home/Index",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.mcpafl.org",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=611&LayerID=10334&PageTypeID=2&PageID=4446"
+  },
+  {
+    "county": "Nassau",
+    "fips": "12089",
+    "county_seat": "Fernandina Beach",
+    "clerk_main_website": "https://nassauclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/45",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://www.nassauflpa.com",
+    "pa_search_portal": "https://www.nassauflpa.com/property-search/"
+  },
+  {
+    "county": "Okaloosa",
+    "fips": "12091",
+    "county_seat": "Crestview",
+    "clerk_main_website": "https://okaloosaclerk.com",
+    "clerk_records_portal": "https://okaloosacountyfl-web.tylerhost.net/web/search/DOCSEARCH138S1",
+    "clerk_portal_engine": "Tyler Technologies",
+    "pa_main_website": "https://okaloosapa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=813&LayerID=14470&PageTypeID=2&PageID=6540"
+  },
+  {
+    "county": "Okeechobee",
+    "fips": "12093",
+    "county_seat": "Okeechobee",
+    "clerk_main_website": "https://clerk.co.okeechobee.fl.us",
+    "clerk_records_portal": "https://pioneer.okeechobeelandmark.com/LandmarkWebLive",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.okeechobeepa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=877&LayerID=16603&PageTypeID=2&PageID=7423"
+  },
+  {
+    "county": "Orange",
+    "fips": "12095",
+    "county_seat": "Orlando",
+    "clerk_main_website": "https://www.myorangeclerk.com",
+    "clerk_records_portal": "https://selfservice.or.occompt.com/ssweb/search/DOCSEARCH2950S1",
+    "clerk_portal_engine": "Tyler Technologies",
+    "pa_main_website": "https://www.ocpafl.org",
+    "pa_search_portal": "https://www.ocpafl.org/Searches/ParcelSearch.aspx"
+  },
+  {
+    "county": "Osceola",
+    "fips": "12097",
+    "county_seat": "Kissimmee",
+    "clerk_main_website": "https://osceolaclerk.com",
+    "clerk_records_portal": "https://officialrecords.osceolaclerk.org/searchng_ssl/",
+    "clerk_portal_engine": "Cott SearchNG",
+    "pa_main_website": "https://www.property-appraiser.org",
+    "pa_search_portal": "https://www.property-appraiser.org/property-search/"
+  },
+  {
+    "county": "Palm Beach",
+    "fips": "12099",
+    "county_seat": "West Palm Beach",
+    "clerk_main_website": "https://mypalmbeachclerk.com",
+    "clerk_records_portal": "https://erec.mypalmbeachclerk.com/",
+    "clerk_portal_engine": "Custom eRecording",
+    "pa_main_website": "https://www.pbcgov.org/papa",
+    "pa_search_portal": "https://www.pbcgov.org/papa/Asps/GeneralSearch/SearchMaster.aspx"
+  },
+  {
+    "county": "Pasco",
+    "fips": "12101",
+    "county_seat": "Dade City",
+    "clerk_main_website": "https://pascoclerk.com",
+    "clerk_records_portal": "https://app.pascoclerk.com/appdot-public-online-services-forms-or-search.asp",
+    "clerk_portal_engine": "Custom Pasco ASP",
+    "pa_main_website": "https://www.pascopa.com",
+    "pa_search_portal": "https://search.pascopa.com/"
+  },
+  {
+    "county": "Pinellas",
+    "fips": "12103",
+    "county_seat": "Clearwater",
+    "clerk_main_website": "https://mypinellasclerk.org",
+    "clerk_records_portal": "https://officialrecords.mypinellasclerk.org/",
+    "clerk_portal_engine": "Custom OfficialRecords",
+    "pa_main_website": "https://www.pcpao.gov",
+    "pa_search_portal": "https://www.pcpao.gov/property-search"
+  },
+  {
+    "county": "Polk",
+    "fips": "12105",
+    "county_seat": "Bartow",
+    "clerk_main_website": "https://polkcountyclerk.net",
+    "clerk_records_portal": "https://apps.polkcountyclerk.net/browserviewor/",
+    "clerk_portal_engine": "Custom BrowserView",
+    "pa_main_website": "https://www.polkpa.org",
+    "pa_search_portal": "https://www.polkpa.org/CamaDisplay.aspx"
+  },
+  {
+    "county": "Putnam",
+    "fips": "12107",
+    "county_seat": "Palatka",
+    "clerk_main_website": "https://putnamclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/54",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://putnamappraiser.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=859&LayerID=15995&PageTypeID=2&PageID=7167"
+  },
+  {
+    "county": "St. Johns",
+    "fips": "12109",
+    "county_seat": "St. Augustine",
+    "clerk_main_website": "https://stjohnsclerk.com",
+    "clerk_records_portal": "https://apps.stjohnsclerk.com/Landmark",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.sjcpa.us",
+    "pa_search_portal": "https://www.sjcpa.us/Property-Search"
+  },
+  {
+    "county": "St. Lucie",
+    "fips": "12111",
+    "county_seat": "Fort Pierce",
+    "clerk_main_website": "https://stlucieclerk.gov",
+    "clerk_records_portal": "https://stlucieclerk.gov/public-search-gen/official-records-search",
+    "clerk_portal_engine": "Custom Clerk Portal",
+    "pa_main_website": "https://www.paslc.gov",
+    "pa_search_portal": "https://www.paslc.gov/property-search/"
+  },
+  {
+    "county": "Santa Rosa",
+    "fips": "12113",
+    "county_seat": "Milton",
+    "clerk_main_website": "https://santarosaclerk.com",
+    "clerk_records_portal": "https://santarosaclerk.com/courts/official-record-and-public-images-notices/",
+    "clerk_portal_engine": "Custom Clerk Portal",
+    "pa_main_website": "https://www.srcpa.gov",
+    "pa_search_portal": "https://www.srcpa.gov/search/"
+  },
+  {
+    "county": "Sarasota",
+    "fips": "12115",
+    "county_seat": "Sarasota",
+    "clerk_main_website": "https://sarasotaclerk.com",
+    "clerk_records_portal": "https://secure.sarasotaclerk.com/OfficialRecords.aspx",
+    "clerk_portal_engine": "Custom Secure ASPX",
+    "pa_main_website": "https://www.sc-pa.com",
+    "pa_search_portal": "https://www.sc-pa.com/propertysearch"
+  },
+  {
+    "county": "Seminole",
+    "fips": "12117",
+    "county_seat": "Sanford",
+    "clerk_main_website": "https://seminoleclerk.org",
+    "clerk_records_portal": "https://recording.seminoleclerk.org/DuProcessWebInquiry/index.html",
+    "clerk_portal_engine": "DuProcess",
+    "pa_main_website": "https://www.scpafl.org",
+    "pa_search_portal": "https://www.scpafl.org/PropertySearch"
+  },
+  {
+    "county": "Sumter",
+    "fips": "12119",
+    "county_seat": "Bushnell",
+    "clerk_main_website": "https://sumterclerk.com",
+    "clerk_records_portal": "https://recording.sumterclerk.com/LandmarkWeb",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://sumterpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=874&LayerID=16520&PageTypeID=2&PageID=7398"
+  },
+  {
+    "county": "Suwannee",
+    "fips": "12121",
+    "county_seat": "Live Oak",
+    "clerk_main_website": "https://suwanneeclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/61",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://suwanneepa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=873&LayerID=16492&PageTypeID=2&PageID=7387"
+  },
+  {
+    "county": "Taylor",
+    "fips": "12123",
+    "county_seat": "Perry",
+    "clerk_main_website": "https://taylorclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/62",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://taylorpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=872&LayerID=16462&PageTypeID=2&PageID=7375"
+  },
+  {
+    "county": "Union",
+    "fips": "12125",
+    "county_seat": "Lake Butler",
+    "clerk_main_website": "https://unionclerk.com",
+    "clerk_records_portal": "https://recording.unionclerk.com/DuProcessWebInquiry/index.html",
+    "clerk_portal_engine": "DuProcess",
+    "pa_main_website": "https://unionpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=870&LayerID=16377&PageTypeID=2&PageID=7339"
+  },
+  {
+    "county": "Volusia",
+    "fips": "12127",
+    "county_seat": "DeLand",
+    "clerk_main_website": "https://clerk.org",
+    "clerk_records_portal": "https://or.clerk.org/",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.vcpa.vcgov.org",
+    "pa_search_portal": "https://vcpa.vcgov.org/searches.html"
+  },
+  {
+    "county": "Wakulla",
+    "fips": "12129",
+    "county_seat": "Crawfordville",
+    "clerk_main_website": "https://wakullaclerk.com",
+    "clerk_records_portal": "https://or.wakullaclerk.com/LandmarkWeb",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://www.wakullapa.gov",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=836&LayerID=15243&PageTypeID=2&PageID=6858"
+  },
+  {
+    "county": "Walton",
+    "fips": "12131",
+    "county_seat": "DeFuniak Springs",
+    "clerk_main_website": "https://waltonclerk.com",
+    "clerk_records_portal": "https://or.waltonclerk.com/LandmarkWeb",
+    "clerk_portal_engine": "LandmarkWeb",
+    "pa_main_website": "https://waltonpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=814&LayerID=14489&PageTypeID=2&PageID=6549"
+  },
+  {
+    "county": "Washington",
+    "fips": "12133",
+    "county_seat": "Chipley",
+    "clerk_main_website": "https://washingtonclerk.com",
+    "clerk_records_portal": "https://www.myfloridacounty.com/orisearch/67",
+    "clerk_portal_engine": "MyFloridaCounty ORI",
+    "pa_main_website": "https://washingtonpa.com",
+    "pa_search_portal": "https://qpublic.schneidercorp.com/Application.aspx?AppID=842&LayerID=15421&PageTypeID=2&PageID=6933"
+  }
+]
